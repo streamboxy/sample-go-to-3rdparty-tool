@@ -1,0 +1,64 @@
+:root {
+    --accent-color: #ed6c05;
+    --background-color: #292929;
+    --text-color: #ffffff;
+    --canvas-color: #252525;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Standard", "Lato", sans-serif !important;
+    height: 100vh;
+    background-color: var(--canvas-color);
+}
+
+
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+button {
+    width: 30vmax;
+    height: 8vmax;
+    transition: 0.3s all ease;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: none;
+    font-size: 2em;
+}
+
+.text {
+    color: #303c49;
+    margin-bottom: 4vh;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
