@@ -8,6 +8,7 @@ With this project you can realise a jump to a third party tool from the Streambo
 
 ### Query Paramters:
 link={{URL (BASE64 ENCODED)}}
+
 buttontext={{Text for Button (BASE64 Encoded)}} optional 
 
 Eample URL with URL to wikipedia.org and buttontext "Open 3rd party tool":
